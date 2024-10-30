@@ -40,12 +40,12 @@ namespace VehicleDemoMenu
                         // är att du refererar till själva metoden som en delegat,
                         // inte anropar den direkt!
                         vehicleDelegate = VehicleFactory.CreateCar;
-                        
+
                         break;
                     case "2":
                         // vehicleDelegate = () => new Bus();
                         vehicleDelegate = VehicleFactory.CreateBus;
-                        
+
                         break;
                     case "3":
                         // vehicleDelegate = () => new Formula1Car();
@@ -53,6 +53,10 @@ namespace VehicleDemoMenu
                         break;
                     case "4":
                         return;
+                    // Vad händer om man kommentera bort denna default?
+                    // Man får salladsland på denna rad!
+                    // IVehicle vehicle = vehicleDelegate();
+                    // Varför?
                     default:
                         Console.WriteLine("Ogiltigt val, försök igen.");
                         continue;
@@ -73,7 +77,7 @@ namespace VehicleDemoMenu
                 // Detta kör den specifika Drive-implementeringen för den aktuella
                 // fordonstypen (t.ex. "Driving a car!" för en bil).
                 Console.WriteLine(vehicle.Drive());
-                
+
                 Console.WriteLine("Tryck valfri tangent för att fortsätta");
                 Console.ReadLine();
             }
