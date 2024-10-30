@@ -1,4 +1,4 @@
-*** Delegates representerar en referens till en metod... ***
+* * Delegates representerar en referens till en metod... * *
 Att skapa en ny instance är egentligen inte en metod!
 Eller?
 	new Car()
@@ -18,7 +18,7 @@ Ja, att använda vehicleDelegate = () => new Car();
 särskilt när du vill 'dynamiskt bestämma vilken typ' som ska returneras vid 
 körning (runtime), och då instansiera ett objekt direkt vid behov.
 
-# Varför det är god praxis:
+# Varför det är god praxis?:
 ## Flexibilitet: 
 	Lambda-uttryck som () => new Car() gör koden flexibel eftersom du kan 
 	byta ut vilket objekt som skapas vid behov, 
