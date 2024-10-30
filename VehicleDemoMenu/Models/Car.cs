@@ -4,12 +4,12 @@ using VehicleDemoMenu.Interfaces;
 
 namespace VehicleDemoMenu.Models
 {
-    // Skapar en klass som heter "Car" och implementerar
-    // IVehicle-gränssnittet
+    /// <summary>
+    /// Skapar en klass som heter "Car" och implementerar
+    /// IVehicle-gränssnittet
+    /// </summary>
     public class Car : IVehicle
     {
-        // Implementerar Drive-metoden från IVehicle-gränssnittet
-        // Denna metod returnerar en textsträng som beskriver handlingen
         public string Drive()
         {
             return "Driving a car!";

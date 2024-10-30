@@ -2,6 +2,10 @@
 
 namespace VehicleDemoMenu.Models
 {
+    /// <summary>
+    /// Skapar en klass som heter "Bus" och implementerar
+    /// IVehicle-gränssnittet
+    /// </summary>
     public class Bus : IVehicle
     {
         public string Drive()

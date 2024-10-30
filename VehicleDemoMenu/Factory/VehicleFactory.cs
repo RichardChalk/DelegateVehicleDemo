@@ -4,27 +4,37 @@ using VehicleDemoMenu.Models;
 
 namespace VehicleDemoMenu.Factory
 {
-    // En statisk klass som heter "VehicleFactory"
-    // används för att skapa olika fordonstyper
+    /// <summary>
+    /// En statisk Factory klass som heter "VehicleFactory"
+    /// används för att skapa olika fordonstyper
+    /// </summary>
     public static class VehicleFactory
     {
-        // Skapar en bil genom att returnera ett nytt Car-objekt
-        // som implementerar IVehicle-gränssnittet
+        /// <summary>
+        /// Skapar en bil genom att returnera ett nytt Car-objekt
+        /// som implementerar IVehicle-gränssnittet
+        /// </summary>
+        /// <returns>IVehicle</returns>
         public static IVehicle CreateCar()
         {
             return new Car();
         }
 
-        // Skapar en buss genom att returnera ett nytt Bus-objekt
-        // som implementerar IVehicle-gränssnittet
+        /// <summary>
+        /// Skapar en bil genom att returnera ett nytt Bus-objekt
+        /// som implementerar IVehicle-gränssnittet
+        /// </summary>
+        /// <returns>IVehicle</returns>
         public static IVehicle CreateBus()
         {
             return new Bus();
         }
 
-        // Skapar en Formel 1-bil genom att returnera ett nytt
-        // Formula1Car-objekt som implementerar
-        // IVehicle-gränssnittet
+        /// <summary>
+        /// Skapar en bil genom att returnera ett nytt Formel 1 Bil-objekt
+        /// som implementerar IVehicle-gränssnittet
+        /// </summary>
+        /// <returns>IVehicle</returns>
         public static IVehicle CreateFormula1Car()
         {
             return new Formula1Car();

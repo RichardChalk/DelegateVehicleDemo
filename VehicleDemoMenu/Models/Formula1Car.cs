@@ -4,6 +4,10 @@ namespace VehicleDemoMenu.Models
 {
     public class Formula1Car : IVehicle
     {
+        /// <summary>
+        /// Skapar en klass som heter "Formula1Car" och implementerar
+        /// IVehicle-gränssnittet
+        /// </summary>
         public string Drive()
         {
             return "Racing a Formula 1 car!";
