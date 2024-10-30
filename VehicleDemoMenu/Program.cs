@@ -10,7 +10,12 @@ namespace VehicleDemoMenu
     {
         static void Main(string[] args)
         {
-            VehicleDelegate vehicleDelegate = null;
+            // Option #1 (nullable)
+            VehicleDelegate? vehicleDelegate = null;
+            
+            // Option #2 (inte nullable)
+            // ... då måste man välja en start typ... tex. Car
+            // VehicleDelegate vehicleDelegate = () => new Car();
 
             while (true)
             {
