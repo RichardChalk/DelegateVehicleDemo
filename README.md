@@ -1,4 +1,4 @@
-* * Delegates representerar en referens till en metod... * *
+Delegates representerar en referens till en metod... 
 Att skapa en ny instance är egentligen inte en metod!
 Eller?
 	new Car()
@@ -39,3 +39,6 @@ körning (runtime), och då instansiera ett objekt direkt vid behov.
 	är det fullt rimligt att instansiera direkt i en lambda. 
 	Detta är vanligt inom Factory pattern-mönster och andra situationer 
 	där objekt behöver skapas på begäran.
+
+ # Hur man formattera i en .md fil
+ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
