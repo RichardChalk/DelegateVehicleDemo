@@ -45,12 +45,10 @@ namespace VehicleDemoMenu
                         // är att du refererar till själva metoden som en delegat,
                         // inte anropar den direkt!
                         vehicleDelegate = VehicleFactory.CreateCar;
-
                         break;
                     case "2":
                         // vehicleDelegate = () => new Bus();
                         vehicleDelegate = VehicleFactory.CreateBus;
-
                         break;
                     case "3":
                         // vehicleDelegate = () => new Formula1Car();
@@ -77,8 +75,8 @@ namespace VehicleDemoMenu
                 // ...är ett alternativt sätt att anropa delegaten direkt.
                 // IVehicle vehicle = vehicleDelegate.Invoke();
 
-                // Anropar Drive-metoden på vehicle-objektet och skriver ut resultatet
-                // i konsolen.
+                // Anropar Drive-metoden på vehicle-objektet och skriver ut
+                // resultatet i konsolen.
                 // Detta kör den specifika Drive-implementeringen för den aktuella
                 // fordonstypen (t.ex. "Driving a car!" för en bil).
                 Console.WriteLine(vehicle.Drive());

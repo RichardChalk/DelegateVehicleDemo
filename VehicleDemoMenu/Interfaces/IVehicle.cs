@@ -13,7 +13,7 @@
         /// hur Drive-metoden fungerar
         /// (t.ex. köregenskaper för olika fordonstyper).
         /// </summary>
-        /// <returns></returns>
+        /// <returns>string</returns>
         string Drive();
     }
 }
