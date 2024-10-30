@@ -13,7 +13,7 @@ namespace VehicleDemoMenu
             // Option #1 (nullable)
             VehicleDelegate? vehicleDelegate = null;
             
-            // Option #2 (inte nullable)
+            // Option #2 (inte nullable - Lamnda)
             // ... då måste man välja en start typ... tex. Car
             // VehicleDelegate vehicleDelegate = () => new Car();
 
