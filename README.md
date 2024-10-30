@@ -1,4 +1,5 @@
-Delegates representerar en referens till en metod... 
+# Delegates representerar en referens till en metod... 
+
 Att skapa en ny instance är egentligen inte en metod!
 Eller?
 	new Car()
