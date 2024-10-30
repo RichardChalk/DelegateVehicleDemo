@@ -1,20 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Importerar gränssnittet IVehicle som definierar
+// standardmetoder för alla fordon
 using VehicleDemoMenu.Interfaces;
 
 namespace VehicleDemoMenu.Models
 {
+    // Skapar en klass som heter "Car" och implementerar
+    // IVehicle-gränssnittet
     public class Car : IVehicle
     {
+        // Implementerar Drive-metoden från IVehicle-gränssnittet
+        // Denna metod returnerar en textsträng som beskriver handlingen
         public string Drive()
         {
             return "Driving a car!";
         }
-        
-        // Man kan göra samma sak med en Lmnda expression!
+
+        // Alternativt sätt att skriva metoden Drive med en lambda-uttryck:
+        // Lambda-uttrycket gör metoden kortare och fungerar likadant
         // public string Drive() => "Driving a car!";
     }
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using VehicleDemoMenu.Interfaces;
+﻿using VehicleDemoMenu.Interfaces;
 
 namespace VehicleDemoMenu.Models
 {
@@ -14,7 +9,8 @@ namespace VehicleDemoMenu.Models
             return "Racing a Formula 1 car!";
         }
 
-        // Man kan göra samma sak med en Lmnda expression!
+        // Alternativt sätt att skriva metoden Drive med en lambda-uttryck:
+        // Lambda-uttrycket gör metoden kortare och fungerar likadant
         // public string Drive() => "Driving a Formula 1 car!";
     }
 }
