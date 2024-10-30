@@ -9,8 +9,8 @@ Den anropar konstruktorn... som egentligen är en METOD!
 
 
 
-#Is it good practise?
-====================
+# Is it good practise?
+=====================
 
 ** vehicleDelegate = () => new Car(); **
 
